@@ -24,7 +24,7 @@ public class QuickSort implements ArraySortI {
     }
 
     private int partition(int[] arr, int startIndex, int endIndex) {
-        int pivot = arr[startIndex];
+        int pivot = arr[startIndex];//....
         int left = startIndex;
         int right = endIndex;
         while (left != right) {
